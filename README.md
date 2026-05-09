@@ -1,6 +1,6 @@
 # Airline Route Revenue Analysis
 
-Multi-decade analysis of U.S. airline route revenue performance using Python and Tableau. This project evaluates domestic airline routes from 1993–2023, with a focus on estimated revenue, passenger demand, fare behavior, route ranking, revenue concentration, and seasonal trends.
+Multi-decade analysis of U.S. airline route revenue performance using Python and Tableau. This project evaluates domestic airline routes from 2010–2023, with a focus on estimated revenue, passenger demand, fare behavior, route ranking, revenue concentration, and seasonal trends.
 
 > Note: This project analyzes estimated route revenue, not true profitability. Profitability would require cost data such as fuel, labor, aircraft utilization, airport fees, and operating expenses.
 
