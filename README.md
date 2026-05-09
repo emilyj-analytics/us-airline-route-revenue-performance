@@ -15,7 +15,6 @@ This project answers the following business questions:
 - Which routes generate the highest and lowest estimated revenue?
 - How concentrated is revenue across top-performing routes?
 - Do high-revenue routes perform better because of higher fares, higher passenger volume, longer distance, or a combination of factors?
-- Are there seasonal trends in passenger demand or estimated revenue?
 - How can airlines use route-level revenue segmentation to prioritize strategic decisions?
 
 ---
@@ -165,13 +164,13 @@ Low-revenue routes should not automatically be removed. Airlines should evaluate
 Limitations + Next Steps:
 
 Limitations:
--This analysis uses estimated revenue, not profit.
--Operating costs were not included.
--Cost drivers such as fuel, aircraft type, labor, airport fees, and load factor were not available.
--Carrier-level competitive fields had substantial missing data and were excluded from the core analysis.
--The dataset does not fully explain why passengers choose specific routes.
--2024 was excluded because only partial-year data was available.
--Revenue estimates are based on fare and passenger volume, not full airline financial reporting.
+- This analysis uses estimated revenue, not profit.
+- Operating costs were not included.
+- Cost drivers such as fuel, aircraft type, labor, airport fees, and load factor were not available.
+- Carrier-level competitive fields had substantial missing data and were excluded from the core analysis.
+- The dataset does not fully explain why passengers choose specific routes.
+- 2024 was excluded because only partial-year data was available.
+- Revenue estimates are based on fare and passenger volume, not full airline financial reporting.
 
 ---
 
@@ -179,23 +178,23 @@ Next Steps
 
 Future analysis could improve the project by adding:
 
--Operating cost estimates by route
--Load factor or seat capacity data
--Airline carrier-level comparisons
--Airport-level market analysis
--Forecasting for future passenger demand or estimated revenue
--Competitive pricing analysis using complete carrier/fare fields
--Route profitability modeling if cost data becomes available
+- Operating cost estimates by route
+- Load factor or seat capacity data
+- Airline carrier-level comparisons
+- Airport-level market analysis
+- Forecasting for future passenger demand or estimated revenue
+- Competitive pricing analysis using complete carrier/fare fields
+- Route profitability modeling if cost data becomes available
 
 ---
 
 Tools Used:
--Python: data cleaning, validation, aggregation, feature engineering
--Pandas: data manipulation and route-level calculations
--NumPy: numerical calculations
--Tableau: dashboard creation, route segmentation, executive presentation visuals
--Jupyter Notebook: analysis documentation and workflow
--GitHub: project documentation and version control
+- Python: data cleaning, validation, aggregation, feature engineering
+- Pandas: data manipulation and route-level calculations
+- NumPy: numerical calculations
+- Tableau: dashboard creation, route segmentation, executive presentation visuals
+- Jupyter Notebook: analysis documentation and workflow
+- GitHub: project documentation and version control
 ---
 Project Deliverables:
 
